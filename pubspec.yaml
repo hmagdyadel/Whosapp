@@ -1,0 +1,60 @@
+name: whosapp
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg:
+  shared_preferences: ^2.0.6
+  emoji_picker:
+  camera:
+  path_provider:
+  path:
+  video_player:
+  socket_io_client:
+  intl:
+  otp_text_field:
+  image_picker:
+  http:
+  firebase_core:
+  firebase_auth: ^1.2.0
+  flutter_secure_storage:
+  contacts_service:
+  image_cropper:
+#gallery_saver:
+#https://www.youtube.com/watch?v=QyChOayFQDk&list=PLxefhmF0pcPkC__GnBhBmGl4013eBYLWh&index=1&t=2s
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.9.1"
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/whosApp2.png"
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Bold.ttf
+        - asset: assets/fonts/OpenSans-Regular.ttf
+        - asset: assets/fonts/OpenSans-Italic.ttf
+          style: italic
+
